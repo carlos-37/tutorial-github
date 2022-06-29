@@ -1,0 +1,212 @@
+
+
+                          ¨ Como trabalhar com Git e GitHub no VsCode | Tutorial ¨
+
+
+             ¨ Nivel básico de inclusão de projetos com Git e VsCode ¨ 
+   
+
+     # - Primeiro passo temos que criar um repositório no github e pra isso devemos acessar a nossa conta do github;
+  
+     # - Após acessar a conta vamos em repositório depois em NEW e ai criamos o repositório com o nome do projeto que iremos trabalhar;
+ 
+     # - Como é projeto privado clicar em PRIVATE e depois ADD REDAME FILE (braint main), feito isso você  clica em CREATING REPOSITORY;
+
+     # - Depois desse processo você vai clicar em CODE e copiar o link do repositório para criar uma pasta no seu computador;
+
+     # - Logo após cria uma pasta do projeto no seu computador e clica com o botão direito do mouse e vai em git bash here;
+
+     # - Vai abrir o prompt de comando do git ai vc terá que clonar o repositório pra dentro dessa pasta ensira o comando GIT CLONE;     
+  
+     # - E depois cole o link do repositório que você copiou / git clone https://github.com/Suporte-Oberon/suporte.git / após aperte enter; 
+
+     # - Após ter feito isso vai na pasta do projeto que acabou de ser baixada pelo github clica com o botão direito vai em git bash here;
+
+     # - Ensira o comando CODE . Esse comando irá abrir o VScode exatamente nessa pasta quando abrir clica em confiável para acessar o projeto;
+
+     # - Configurar user name e user email - vai em terminal e ensira git config --global user.email "caj-rj@hotmail.com" (Seu email do git); 
+
+     # - git config --global user.name "carlos-37" (Seu user name do git) / após esse processo você pode encerrar o terminal e dar inicio ao seu projeto;
+
+     # - Um tutorial bem básico que ajuda no dia a dia caso esqueça do processo de inclusão de projeto no VScode com o Github.
+
+
+*_________________________________________________________________________________________________________________________________________________________________*  
+
+
+
+           ¨ Nivel avançado de inclusão de projetos com Git e VsCode ¨ 
+
+
+     * - Criar um repositório no github;
+ 
+     * - Copiar o link do repositório;
+
+     * - Criar uma pasta do projeto no computador;
+
+     * - Abra a pasta do projeto com o botão direito do mouse vá em abrir o git bash;
+
+     * - Com o git bash ensira o código git clone junto com o link copiado do repositório do projeto;
+
+     * - Aperte enter o github vai baixar a pasta do projeto em seu computador;
+
+     * - Arquivo baixado clicar em git bash ensira o comando code. esse comando irá abrir o VScode exatamente nessa pasta;
+
+     * - Feito isso configure o github abra o terminal e ensira o código git config --global user.email "caj-rj@hotmail.com"
+
+     * - git config --global user.name "carlos-37" aperte enter pronto seus dados do git esta configurados com sucesso. 
+
+
+
+*_________________________________________________________________________________________________________________________________________________________________*  
+
+
+           ¨ Principais comandos do Github ¨
+
+     
+    ✔ Git commit =>   Agora fazemos a gravação em si das modificações, desta forma criamos um snapshot do estado atual do nosso projeto.
+
+      Uma forma muito usada é o git commit -m “descrição das atualizações do projeto” onde o -m  é uma flag que aponta para a mensagem de descrição.
+
+    
+    ✔ Git push   =>   Por fim precisamos subir essas modificações no nosso repositório remoto,
+
+      para isso basta utilizar o comando git push e, se já estiver tudo devidamente configurado, 
+      os arquivos serão salvos no repositório remoto correspondente ao seu repositório local!
+
+     
+    ✔ Git status =>   Este comando permite ver quais arquivos estão sendo “rastreados” 
+      
+      pelo git e quais modificações já foram enviadas para o stage.
+      É bem útil para quando se tem dúvidas sobre o que está sendo enviado.
+
+     
+    ✔ Git branch =>   É usado para verificar todas as branches presentes no repositório. 
+
+      Ao utilizar a flag -r no final do comando é possível ver todas as branches presentes
+      no repositório remoto e se você quiser criar uma nova branch basta 
+      utilizar este comando: git branch <branch_name>
+
+     
+    ✔ Git add       =>  Este comando adiciona os arquivos solicitados ao ambiente de stage, é uma forma
+        de dizer para o git que você deseja que as modificações daquele arquivo sejam gravadas na próxima remessa.
+        Um exemplo de utilização é: git add . onde o ponto representa todos os arquivos na pasta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
