@@ -64,7 +64,7 @@
            ¨ Principais comandos do Github ¨
 
 
-      ✔   Git status =>   Este comando permite ver quais arquivos estão sendo “rastreados” 
+      ✔   Git status   =>   Este comando permite ver quais arquivos estão sendo “rastreados” 
       
        pelo git e quais modificações já foram enviadas para o stage.
       É bem útil para quando se tem dúvidas sobre o que está sendo enviado.
@@ -77,49 +77,52 @@
       
        
       
-      ✔   Git commit =>   Agora fazemos a gravação em si das modificações, desta forma criamos um snapshot do estado atual do nosso projeto.
+      ✔   Git commit  =>   Agora fazemos a gravação em si das modificações, desta forma criamos um snapshot do estado atual do nosso projeto.
       
       Uma forma muito usada é o git commit -m “ descrição das atualizações do projeto ” onde o -m  é uma flag que aponta para a mensagem de descrição.
       
       
        
-      ✔   Git log           =>  Com o comando git log, você pode visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo
+      ✔   Git log          =>  Com o comando git log, você pode visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo
     
          em especial. Isso pode ser útil para você entender como alguma parte do código vem sendo evoluída, ou pode ajudar a avaliar os commits locais antes de
         dar git push.
       
        
            
-      ✔   Git push   =>   Por fim precisamos subir essas modificações no nosso repositório remoto,
+      ✔   Git push       =>   Por fim precisamos subir essas modificações no nosso repositório remoto,
       
         para isso basta utilizar o comando git push e, se já estiver tudo devidamente configurado, 
         os arquivos serão salvos no repositório remoto correspondente ao seu repositório local!
 
 
        
-      ✔   Git pull     =>   O comando git pull é usado para buscar e baixar conteúdo de repositórios remotos
+      ✔   Git pull         =>   O comando git pull é usado para buscar e baixar conteúdo de repositórios remotos
            
        e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais. 
         
      
-      ✔   Git branch =>   É usado para verificar todas as branches presentes no repositório. 
+      ✔   Git branch   =>   É usado para verificar todas as branches presentes no repositório. 
 
         Ao utilizar a flag -r no final do comando é possível ver todas as branches presentes
        no repositório remoto e se você quiser criar uma nova branch basta 
        utilizar este comando: git branch <branch_name>
 
      
+*_________________________________________________________________________________________________________________________________________________________________*  
 
 
 
+         
+        git commit -m “ descrição das atualizações do projeto ”  -->  Grava as alterações do repositório.
+
+      git pull origin main  -->  Envia o arquivo para o github.
+     
+      
 
 
 
-
-
-
-
-
+      atualização de dados lógicos 1.0
 
 
 
